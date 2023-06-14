@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Employee Management System</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@400;700;900&family=Sacramento&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1>Employee Management System</h1>
+    <br><br>
+    <section id="addEmployee">
+        <h2>Add Employee</h2>
+        <form id="addForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="position">Position:</label>
+            <input type="text" id="position" name="position" required><br><br>
+
+            <label for="salary">Salary:</label>
+            <input type="number" id="salary" name="salary" required><br><br>
+
+            <input type="submit" value="Add Employee">
+            
+        </form>
+    </section>
+    <br><br> <br>
+    <section id="updateEmployee">
+        <h2>Update Employee</h2>
+        <form id="updateForm">
+            <label for="empId">Employee ID:</label>
+            <input type="number" id="empId" name="empId" required><br><br>
+
+            <label for="newName">New Name:</label>
+            <input type="text" id="newName" name="newName" required><br><br>
+
+            <label for="newPosition">New Position:</label>
+            <input type="text" id="newPosition" name="newPosition" required><br><br>
+
+            <label for="newSalary">New Salary:</label>
+            <input type="number" id="newSalary" name="newSalary" required><br><br>
+
+            <input type="submit" value="Update Employee">
+            
+        </form>
+
+    </section>
+    <br><br> <br>
+    <section id="deleteEmployee">
+        <h2>Delete Employee</h2>
+        <form id="deleteForm">
+            <label for="deleteId">Employee ID:</label>
+            <input type="number" id="deleteId" name="deleteId" required><br><br>
+
+            <input type="submit" value="Delete Employee">
+            
+        </form>
+    </section>
+    <br><br> <br>
+    <h2>Employee List</h2>
+    <div class="data" id="employeeList"></div>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

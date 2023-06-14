@@ -1,0 +1,19 @@
+body{
+    background-color: #FAF0E4;
+    text-align: center;
+}
+.data{
+    text-align: center;
+}
+h1{
+    font-family: 'Montserrat-Black', sans-serif;
+}
+#addEmployee{
+background-color: #E8A9A9;
+}
+#updateEmployee{
+    background-color: #E1AEFF;
+}
+#deleteEmployee{
+    background-color: #F4D3D3;
+}
